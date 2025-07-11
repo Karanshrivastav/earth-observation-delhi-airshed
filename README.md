@@ -52,7 +52,7 @@ project-root/
 
 ## ✅ Solution Breakdown
 
-### 🔹 Q1: Spatial Reasoning & Data Filtering (5 Marks)
+### 🔹 Q1: Spatial Reasoning & Data Filtering 
 
 **Goal:** Overlay 60×60 km grid over Delhi-NCR, filter RGB images by spatial location.
 
@@ -73,7 +73,7 @@ project-root/
 
 ---
 
-### 🔹 Q2: Label Construction & Dataset Preparation (10 Marks)
+### 🔹 Q2: Label Construction & Dataset Preparation 
 
 **Goal:** Assign ESA land cover labels to image patches using mode of 128×128 land_cover.tif regions.
 
@@ -93,7 +93,7 @@ project-root/
 
 ---
 
-### 🔹 Q3: Model Training & Evaluation (10 Marks)
+### 🔹 Q3: Model Training & Evaluation 
 
 **Goal:** Train a CNN model (ResNet18) and evaluate land cover classification accuracy.
 

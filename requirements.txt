@@ -1,0 +1,11 @@
+geopandas
+matplotlib
+geemap
+leafmap
+shapely
+rasterio
+numpy
+tqdm
+torch torchvision torchaudio
+torchmetrics
+seaborn

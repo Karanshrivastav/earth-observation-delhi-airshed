@@ -21,9 +21,9 @@ project-root/
 │   ├── shapefiles/                 # GeoJSON shapefiles
 │   └── tif/                        # land_cover.tif
 ├── notebooks/
-│   ├── 01_spatial_grid_filtering.ipynb
-│   ├── 02_label_extraction_dataset_preparation.ipynb
-│   └── 03_model_training_evaluation.ipynb
+│   ├── 01_spatial_analysis.ipynb
+│   ├── 02_data_preparation.ipynb
+│   └── 03_model_training.ipynb
 ├── outputs/
 │   ├── figures/
 │   │   ├── grid_overlay.png
@@ -56,7 +56,7 @@ project-root/
 
 **Goal:** Overlay 60×60 km grid over Delhi-NCR, filter RGB images by spatial location.
 
-📓 Notebook: [`01_spatial_grid_filtering.ipynb`](notebooks/01_spatial_grid_filtering.ipynb)  
+📓 Notebook: [`01_spatial_analysis.ipynb`](notebooks/01_spatial_analysis.ipynb)  
 📈 Outputs:
 - 🗺️ [Grid Overlay (PNG)](outputs/figures/grid_overlay.png)
 - 🌐 [Interactive Grid (HTML)](outputs/figures/interactive_grid.html)
@@ -77,7 +77,7 @@ project-root/
 
 **Goal:** Assign ESA land cover labels to image patches using mode of 128×128 land_cover.tif regions.
 
-📓 Notebook: [`02_label_extraction_dataset_preparation.ipynb`](notebooks/02_label_extraction_dataset_preparation.ipynb)  
+📓 Notebook: [`02_data_preparation.ipynb`](notebooks/02_data_preparation.ipynb)  
 📈 Outputs:
 - 📊 [Class Distribution Plot](outputs/figures/class_distribution.png)
 - 🗂️ [Labeled Images GeoJSON](outputs/reports/labeled_images.geojson)
@@ -97,7 +97,7 @@ project-root/
 
 **Goal:** Train a CNN model (ResNet18) and evaluate land cover classification accuracy.
 
-📓 Notebook: [`03_model_training_evaluation.ipynb`](notebooks/03_model_training_evaluation.ipynb)  
+📓 Notebook: [`03_model_training.ipynb`](notebooks/03_model_training.ipynb)  
 📈 Outputs:
 - 📉 [Confusion Matrix](outputs/figures/confusion_matrix.png)
 - 📈 [F1 Score Comparison](outputs/figures/f1_comparison.png)
@@ -135,6 +135,6 @@ This project presents a scalable approach to auditing land use and pollution sou
 
 ## 📬 Contact
 
-For questions, feel free to contact **[Your Name]**  
-✉️ Email: yourname@example.com  
-🔗 GitHub: [your-github-handle](https://github.com/your-github-handle)
+For questions, feel free to contact **Karan Shrivastava**  
+✉️ Email: karanshrivastava00@gmail.com  
+🔗 GitHub: [https://github.com/Karanshrivastav](https://github.com/Karanshrivastav)
